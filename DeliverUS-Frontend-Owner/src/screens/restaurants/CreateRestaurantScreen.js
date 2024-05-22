@@ -77,7 +77,7 @@ export default function CreateRestaurantScreen ({ navigation, route }) { // SOLU
       }
     }
     fetchRestaurantCategories()
-  }, [route]) // SOLUCION: añadido route
+  }, [route]) // aqui está la SOLUCION
 
   useEffect(() => {
     (async () => {
@@ -178,7 +178,7 @@ export default function CreateRestaurantScreen ({ navigation, route }) { // SOLU
               />
               <ErrorMessage name={'restaurantCategoryId'} render={msg => <TextError>{msg}</TextError>} />
 
-              {/* SOLUCION */}
+              {/* aqui está la SOLUCION */}
               <Pressable
                 onPress={() => navigation.navigate('CreateRestaurantCategoryScreen')}
                 style={({ pressed }) => [

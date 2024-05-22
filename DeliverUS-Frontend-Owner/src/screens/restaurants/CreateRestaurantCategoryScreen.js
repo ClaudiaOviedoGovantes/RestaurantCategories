@@ -10,7 +10,7 @@ import * as GlobalStyles from '../../styles/GlobalStyles'
 import { showMessage } from 'react-native-flash-message'
 import TextError from '../../components/TextError'
 import { Formik } from 'formik'
-
+// aqui está la SOLUCION
 export default function CreateRestaurantCategoryScreen ({ navigation }) {
   const [backendErrors, setBackendErrors] = useState()
 

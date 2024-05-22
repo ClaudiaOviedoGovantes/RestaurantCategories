@@ -11,7 +11,7 @@ module.exports = {
       name: {
         allowNull: false,
         type: Sequelize.STRING,
-        // SOLUCION
+        // aqui está la SOLUCION
         unique: true
       },
       createdAt: {

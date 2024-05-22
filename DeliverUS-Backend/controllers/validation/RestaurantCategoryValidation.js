@@ -1,7 +1,7 @@
 // SOLUCION
 const { check } = require('express-validator')
 const { RestaurantCategory } = require('../../models')
-
+// aqui está la SOLUCION
 const checkRestaurantCategoryNotExists = async (value, { req }) => {
   try {
     const restaurantCategory = await RestaurantCategory.findOne({

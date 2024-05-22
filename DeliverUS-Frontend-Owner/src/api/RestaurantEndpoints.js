@@ -11,7 +11,7 @@ function getRestaurantCategories () {
   return get('restaurantCategories')
 }
 
-// SOLUCION
+// aqui está la SOLUCION
 function createCategory (data) {
   return post('restaurantCategories', data)
 }

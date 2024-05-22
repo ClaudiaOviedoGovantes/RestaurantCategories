@@ -10,7 +10,7 @@ module.exports = (options) => {
 
   app.route('/restaurantCategories')
     .get(RestaurantCategoryController.indexRestaurantCategory)
-    // SOLUCION
+    // aqui está la SOLUCION
     .post(
       middlewares.isLoggedIn,
       middlewares.hasRole('owner'),

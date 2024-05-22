@@ -11,7 +11,7 @@ exports.indexRestaurantCategory = async function (req, res) {
   }
 }
 
-// SOLUCION
+// aqui está la SOLUCION
 exports.create = async function (req, res) {
   const newRestaurantCategory = RestaurantCategory.build(req.body)
 
